@@ -1,0 +1,25 @@
+/* -- my original solution... it works but it is messy
+.one {
+    background-color: black;
+    color: white;
+}
+.two{
+    background-color: yellow;
+}
+#details{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}*/
+
+/* -- much cleaner */
+.one, .two {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    }
+.one {
+        background-color: black;
+        color: white;
+    }
+.two{
+        background-color: yellow;
+}
